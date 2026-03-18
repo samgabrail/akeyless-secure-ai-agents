@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "akeyless": {
+      "command": "/usr/bin/akeyless",
+      "args": [
+        "mcp",
+        "--access-type", "universal_identity",
+        "--access-id", "<YOUR_ACCESS_ID>",
+        "--uid-token", "<YOUR_UID_TOKEN>",
+        "--gateway-url", "https://<YOUR_GATEWAY_IP>:8000/api/v2"
+      ]
+    }
+  }
+}
